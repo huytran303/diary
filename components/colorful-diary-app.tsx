@@ -52,6 +52,7 @@ export function ColorfulDiaryApp() {
   };
 
   const deleteEntry = async (id: number) => {
+    console.log('Delete entry with ID:', id);
     // TODO: Implement delete function in the API and UI
   };
 
